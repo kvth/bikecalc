@@ -1,0 +1,39 @@
+{
+  "name": "@hamgom95/bikecalc",
+  "version": "7.1.1",
+  "description": "bicycle gearing, power and aerodynamics calculator",
+  "main": "src/index.js",
+  "keywords": [
+    "bicycle",
+    "gainratio",
+    "gearinches",
+    "power",
+    "aerodynamics",
+    "gearing",
+    "cranklength"
+  ],
+  "scripts": {
+    "test": "mocha -r esm src/**/*.spec.js",
+    "build:doc": "jsdoc src/*",
+    "build:readme": "jsdoc2md --heading-depth=3 --template README.tpl.md \"src/!(*.spec.js|helpers.js)\" > README.md",
+    "prepublish": "npm run build:readme"
+  },
+  "author": {
+    "name": "Kevin Thomas",
+    "email": "hamgom95@gmail.com"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jsdoc": "^3.5.5",
+    "jsdoc-to-markdown": "^4.0.1",
+    "mocha": "^5.2.0"
+  },
+  "files": [
+    "/src",
+    "index.js"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.1"
+  }
+}

@@ -1,0 +1,10 @@
+export const minutesInHour = 60;
+export const secondsInMinute = 60;
+export const inchesInMeter = 39.3701;
+export const radiusInDiameter = 2;
+export const humanEfficiency = 0.24;
+export const joulesInCalorie = 4.18;
+export const kilo = 1000;
+export const milli = 0.001;
+export const msInKmh = 3.6;
+export const airDensitySeaLevel = 1.225;
