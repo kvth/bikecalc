@@ -1,7 +1,7 @@
-# @hamgom95/bikecalc
+## @hamgom95/bikecalc
 
 Bicycle gear calculator.
 
-## API Documentation
+### API Documentation
 
 {{>main}}
