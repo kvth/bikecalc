@@ -1,10 +1,10 @@
-# @hamgom95/bikecalc
+## @hamgom95/bikecalc
 
 Bicycle gear calculator.
 
-## API Documentation
+### API Documentation
 
-### Constants
+#### Constants
 
 <dl>
 <dt><a href="#aeroDrag">aeroDrag</a> ⇒ <code>number</code></dt>
@@ -41,7 +41,7 @@ Bicycle gear calculator.
 
 <a name="aeroDrag"></a>
 
-### aeroDrag ⇒ <code>number</code>
+#### aeroDrag ⇒ <code>number</code>
 Calculate aerodynamic drag force.
 
 **Kind**: global constant  
@@ -56,7 +56,7 @@ Calculate aerodynamic drag force.
 
 <a name="gearInches"></a>
 
-### gearInches ⇒ <code>number</code>
+#### gearInches ⇒ <code>number</code>
 Calculate gear inches for drivetrain.
 
 **Kind**: global constant  
@@ -70,7 +70,7 @@ Calculate gear inches for drivetrain.
 
 <a name="development"></a>
 
-### development ⇒ <code>number</code>
+#### development ⇒ <code>number</code>
 Calculate development of drivetrain.
 
 **Kind**: global constant  
@@ -84,7 +84,7 @@ Calculate development of drivetrain.
 
 <a name="gainRatio"></a>
 
-### gainRatio ⇒ <code>number</code>
+#### gainRatio ⇒ <code>number</code>
 Calculate gain ratio for drivetrain.
 
 **Kind**: global constant  
@@ -99,7 +99,7 @@ Calculate gain ratio for drivetrain.
 
 <a name="speedAtCadence"></a>
 
-### speedAtCadence ⇒ <code>number</code>
+#### speedAtCadence ⇒ <code>number</code>
 Calculate speed (m/s) at cadence for drivetrain.
 
 **Kind**: global constant  
@@ -114,7 +114,7 @@ Calculate speed (m/s) at cadence for drivetrain.
 
 <a name="skidPatches"></a>
 
-### skidPatches ⇒ <code>number</code>
+#### skidPatches ⇒ <code>number</code>
 Calculate number of skid patches for gear combination.
 
 **Kind**: global constant  
@@ -128,7 +128,7 @@ Calculate number of skid patches for gear combination.
 
 <a name="calories"></a>
 
-### calories ⇒ <code>number</code>
+#### calories ⇒ <code>number</code>
 Calculate estimated energy expenditure while cycling at a specific power.
 
 **Kind**: global constant  
@@ -141,7 +141,7 @@ Calculate estimated energy expenditure while cycling at a specific power.
 
 <a name="power"></a>
 
-### power ⇒ <code>number</code>
+#### power ⇒ <code>number</code>
 Calculate power for cadence and force.
 
 **Kind**: global constant  
@@ -155,7 +155,7 @@ Calculate power for cadence and force.
 
 <a name="force"></a>
 
-### force ⇒ <code>number</code>
+#### force ⇒ <code>number</code>
 Calculate force for power and cadence.
 
 **Kind**: global constant  
@@ -169,7 +169,7 @@ Calculate force for power and cadence.
 
 <a name="pedalVelocity"></a>
 
-### pedalVelocity ⇒ <code>number</code>
+#### pedalVelocity ⇒ <code>number</code>
 Calculate linear pedal velocity from cadence.
 
 **Kind**: global constant  
